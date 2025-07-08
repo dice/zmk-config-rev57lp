@@ -63,7 +63,7 @@
             bindings = <
                 &kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                              &kp LS(N6)  &kp LS(N7)  &kp LS(N8) &kp LS(N9)    &kp LS(N0)  &kp BSPC
                 &kp TAB        &kp LS(N1)  &kp UP      &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                              &kp LS(N6)  &kp HOME    &kp PG_UP  &kp LS(N9)    &kp LS(N0)  &kp BSLH
-                &kp CAPS       &kp LEFT    &kp DOWN    &kp RIGHT   &none       &kp none            &kp C_PLAY          &kp F6      &kp END     &kp PG_DN  &kp LBKT      &kp RBKT    &kp MINUS
+                &kp CAPS       &kp LEFT    &kp DOWN    &kp RIGHT   &none       &none               &kp C_PLAY          &kp F6      &kp END     &kp PG_DN  &kp LBKT      &kp RBKT    &kp MINUS
                 &kp LSHIFT     &kp F7      &kp F8      &kp F9      &kp F10     &kp F11                                 &kp F12     &kp HOME    &kp LBKT   &kp RBKT      &kp END     &kp RET
                                                        &none       &none      &none       &kp C_VOL_DN  &kp C_VOL_UP   &none       &mo RAISE   &kp C_NEXT
                 >;
