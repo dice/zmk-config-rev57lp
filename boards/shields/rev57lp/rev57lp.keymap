@@ -53,7 +53,7 @@
             bindings = <
                 &kp GRAVE  &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT                           &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR  &kp DEL
                 &kp TAB     &none    &none    &none     &none     &none                               &none      &none  &none  &none  &none  &none
-                &trans     &kp F7    &kp F8   &kp F9    &kp F10   &kp F11         &CAPS                &kp F12    &none  &none  &none  &none  &none
+                &trans     &kp F7    &kp F8   &kp F9    &kp F10   &kp F11         &kp CAPS            &kp F12    &none  &none  &none  &none  &none
                 &trans     &kp F1    &kp F2   &kp F3    &kp F4    &kp F5                              &kp F6     &none  &none  &none  &none  &none
                                               &none     &trans    &trans     &mo LOWER  &mo RAISE     &trans     &kp C_MUTE &trans
                 >;
@@ -61,11 +61,11 @@
 
         RAISE {
             bindings = <
-                &none   &none    &none         &none         &none         &none                    &none  &none  &none  &none  &none  &none
-                &none   &none    &kp UP        &none         &none         &none                    &kp HOME  &kp END          &rgb_ug RGB_BRI &rgb_ug RGB_BRD &none &kp BSLSH
-                &none   &kp LEFT &kp DOWN      &kp RIGHT     &none         &none     &kp K_PP       &kp PG_UP &none            &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAI &rgb_ug RGB_SAD
-                &none   &none    &none         &none         &none         &none                    &kp PG_DN  &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_EFR &rgb_ug RGB_SPI &rgb_ug RGB_SPD
-                                               &none  &none                &none  &mo LOWER  &mo RAISE &kp K_VOL_UP  &kp K_VOL_DN &kp K_NEXT
+                &none   &none    &none         &none         &none         &none                       &none        &none           &none           &none           &none           &none
+                &none   &none    &kp UP        &none         &none         &none                       &kp HOME     &kp END         &rgb_ug RGB_BRI &rgb_ug RGB_BRD &none           &kp BSLSH
+                &none   &kp LEFT &kp DOWN      &kp RIGHT     &none         &none     &kp K_PP          &kp PG_UP    &none           &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAI &rgb_ug RGB_SAD
+                &none   &none    &none         &none         &none         &none                       &kp PG_DN    &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_EFR &rgb_ug RGB_SPI &rgb_ug RGB_SPD
+                                               &none  &none                &none  &mo LOWER  &mo RAISE &kp K_VOL_UP &kp K_VOL_DN    &kp K_NEXT
                 >;
         };
     };
