@@ -1,11 +1,11 @@
 #include <physical_layouts.dtsi>
 
-&led_strip {
-    chain-length = 9;
-};
+// &led_strip {
+//    chain-length = 9;
+// };
 
 / {
-    default_layout: physical_layout_0 {
+    physical_layout: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "default-layout";
 
