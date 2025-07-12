@@ -50,7 +50,7 @@
                 >;
         };
 
-        LOWER {
+        lower {
             bindings = <
                 &kp GRAVE  &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT                           &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR  &kp DEL
                 &kp TAB     &none    &none    &none     &none     &none                               &none      &none  &none  &none  &none  &none
@@ -60,7 +60,7 @@
                 >;
         };
 
-        RAISE {
+        raise {
             bindings = <
                 &none   &none    &none         &none         &none         &none                       &none     &none            &none  &none  &none  &none
                 &none   &none    &kp UP        &none         &none         &none                       &kp HOME  &kp END         &none  &none  &none  &none
