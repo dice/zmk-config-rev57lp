@@ -65,7 +65,7 @@
                 &none   &none    &kp UP        &none         &none         &none                    &kp HOME  &kp END          &rgb_ug RGB_BRI &rgb_ug RGB_BRD &none &kp BSLSH
                 &none   &kp LEFT &kp DOWN      &kp RIGHT     &none         &none     &kp K_PP       &kp PG_UP &none            &rgb_ug RGB_HUI &rgb_ug RGB_HUD &rgb_ug RGB_SAI &rgb_ug RGB_SAD
                 &none   &none    &none         &none         &none         &none                    &kp PG_DN  &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_EFR &rgb_ug RGB_SPI &rgb_ug RGB_SPD
-                                               &none  &none                &none  &mo LOWER  &RAISE &kp K_VOL_UP  &kp K_VOL_DN &kp K_NEXT
+                                               &none  &none                &none  &mo LOWER  &mo RAISE &kp K_VOL_UP  &kp K_VOL_DN &kp K_NEXT
                 >;
         };
     };
